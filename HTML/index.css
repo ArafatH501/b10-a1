@@ -62,6 +62,7 @@
 .cool-part-btn {
     margin-bottom: 152px;
 }
+/* background color */
 
 .see-it-section {
     display: flex;
@@ -263,4 +264,21 @@
   padding: 12px 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
+}
+
+.footer {
+  background:#e8e8f2;
+  padding: 40px 20px;
+  text-align: center;
+  color:#8987a1;
+}
+
+.footer-links {
+  margin-top: 16px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #8987a1;
+  text-decoration: none;
 }
