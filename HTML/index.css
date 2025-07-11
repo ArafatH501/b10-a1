@@ -23,7 +23,10 @@
     font-weight: bolder;
     font-size: 34px;
 }
-
+.primary-btn:hover {
+    background-color: #181733;
+    padding: 20px 40px;
+}
 .primary-btn {
     font-weight: bold;
     color: white;
@@ -56,4 +59,26 @@
 
 .cool-part-btn {
     margin-bottom: 152px;
+}
+
+.see-it-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 116px 0;
+}
+
+.see-it-head{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.see-it-text{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+.see-it-img{
+    border: none;
+    border-radius: 48px;
 }
