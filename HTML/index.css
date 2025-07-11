@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.body-width {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url(../Assets/Hero-bg.png);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.logo {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.primary-btn {
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+.railway {
+    font-family: "Raleway", sans-serif;
+}
+
+.cool-part-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cool-part {
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    text-align: center;
+    padding: 0;
+
+}
+
+.cool-part-btn {
+    margin-bottom: 152px;
+}
